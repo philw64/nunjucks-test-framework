@@ -1,0 +1,17 @@
+<!-- layout.nunjucks -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    {# In this case, the file that includes this layout (pages/index.njk) #}
+    {# first includes this file and then defines the code that should     #}
+    {# go into this content block                                         #}
+    {% block blockName %} Default content that will be overwritten {% endblock %}
+
+  </body>
+</html>
+
